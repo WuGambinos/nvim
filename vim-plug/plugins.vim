@@ -1,8 +1,6 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
   
 
-    "File Explorer Stuff"
-
     "Appearance"
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -18,23 +16,23 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      
     Plug 'jiangmiao/auto-pairs'
 
-	Plug 'davidhalter/jedi-vim'
+    Plug 'davidhalter/jedi-vim'
 
-	Plug 'zchee/deoplete-jedi'
+    Plug 'zchee/deoplete-jedi'
   
     "C"
-	Plug 'vim-scripts/c.vim'
+    Plug 'vim-scripts/c.vim'
  
     "Rust"
-	"Plug 'rust-lang/rust.vim'
+    Plug 'rust-lang/rust.vim'
   
     "Typescript"
-	Plug 'leafgarland/typescript-vim'
+    Plug 'leafgarland/typescript-vim'
     Plug 'maxmellon/vim-jsx-pretty'
-	Plug 'isruslan/vim-es6'
+    Plug 'isruslan/vim-es6'
 
     "GO"
-	"Plug 'fatih/vim-go'
+    "Plug 'fatih/vim-go'
 
     "Telescope"
     Plug 'nvim-telescope/telescope.nvim'
