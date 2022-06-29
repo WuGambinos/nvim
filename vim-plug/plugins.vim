@@ -16,9 +16,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      
     Plug 'jiangmiao/auto-pairs'
 
-    Plug 'davidhalter/jedi-vim'
-
-    Plug 'zchee/deoplete-jedi'
   
     "C"
     Plug 'vim-scripts/c.vim'

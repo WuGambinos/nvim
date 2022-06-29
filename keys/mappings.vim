@@ -20,6 +20,6 @@ nnoremap <C-d> :! cargo clippy<CR>
 
 
 "Telescpe Remaps"
-nnoremap <leader>ps :lua require('telescope.builtin').grep_string({search = vim.fn.input("GREP FOR >")})<CR>
+nnoremap <leader>ff :lua require('telescope.builtin').find_files()<CR>
 
 

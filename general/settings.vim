@@ -54,6 +54,8 @@ set hidden
 set incsearch
 
 
+set ve+=onemore
+
 "Columns for linting/github
 "set colorcolumn=80
 "set signcolumn=yes
